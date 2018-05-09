@@ -9,3 +9,8 @@ class Anagram
     @anagrams = anagrams
   end
 end
+
+
+listen = Anagram.new("listen")
+listen.match(%w(enlists google inlets banana))
+binding.pry
