@@ -10,7 +10,7 @@ class Anagram
   end
 
   def match
-    
+    matches.detect(%w())
   end
 
 end
