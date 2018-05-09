@@ -11,7 +11,7 @@ class Anagram
 
   def match(words)
     words.select do |word|
-      listen(word)
+      anagram?(word)
     end
   end
 
