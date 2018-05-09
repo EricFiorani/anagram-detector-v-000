@@ -3,11 +3,11 @@ require 'pry'
 
 class Anagram
 
-  attr_accessor :anagrams
+  attr_accessor :matches
 
-  # def initialize(anagrams)
-  #   @anagrams = anagrams
-  # end
+  def initialize(matches)
+    @matches = matches
+  end
 
   # def match
   #
