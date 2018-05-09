@@ -9,9 +9,9 @@ class Anagram
     @matches = matches
   end
 
-  # def match
-  #
-  # end
+  def match
+  
+  end
 
 end
 
