@@ -9,13 +9,13 @@ class Anagram
     @anagrams = anagrams
   end
 
-  def match
-    
-  end
-  
+  # def match
+  #   
+  # end
+
 end
 
 
-listen = Anagram.new("listen")
-listen.match(%w(enlists google inlets banana))
-binding.pry
+# listen = Anagram.new("listen")
+# listen.match(%w(enlists google inlets banana))
+# binding.pry
